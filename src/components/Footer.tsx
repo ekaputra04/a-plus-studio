@@ -92,8 +92,8 @@ const footerItems: FooterItemType[] = [
 export default function Footer() {
   return (
     <>
-      <div className="gap-32 grid grid-cols-6 px-32 py-24 border-t">
-        <div className="space-y-8 col-span-2">
+      <div className="gap-8 lg:gap-32 grid grid-cols-1 lg:grid-cols-6 px-8 md:px-16 lg:px-32 py-24 border-t">
+        <div className="space-y-8 lg:col-span-2">
           <img src="/images/logo.png" alt="logo" className="w-28" />
           <p className="text-gray-500">
             Leading digital agency with solid design and development expertise.
@@ -112,7 +112,7 @@ export default function Footer() {
             ))}
           </div>
         </div>
-        <div className="gap-8 grid grid-cols-4 col-span-4">
+        <div className="gap-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 lg:col-span-4">
           {footerItems.map((footerItem) => (
             <div key={footerItem.title} className="space-y-4 col-span-1">
               <h1 className="font-bold text-xl">{footerItem.title}</h1>
@@ -129,8 +129,8 @@ export default function Footer() {
           ))}
         </div>
       </div>
-      <div className="py-4 border-t">
-        <p className="text-slate-500 text-sm text-center">
+      <div className="px-8 md:px-0 py-4 border-t">
+        <p className="text-slate-500 text-sm text-center text-wrap">
           Copyright © 2025 Design by Avi Yansah | Slicing by ekaputra04
         </p>
       </div>

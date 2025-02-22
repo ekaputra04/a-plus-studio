@@ -31,9 +31,9 @@ const services: ServiceItemType[] = [
 export default function OurService() {
   return (
     <div className="relative">
-      <div className="flex justify-between items-center gap-16 px-32">
-        <div className="relative space-y-8 w-1/3">
-          <h2 className="font-semibold text-4xl text-wrap">
+      <div className="flex lg:flex-row flex-col justify-between lg:items-center gap-16 px-8 md:px-16 lg:px-32">
+        <div className="relative space-y-6 lg:w-1/3">
+          <h2 className="font-semibold text-2xl md:text-3xl lg:text-4xl text-wrap">
             How can we help your Business?
           </h2>
           <p className="text-slate-500 text-wrap">
@@ -43,11 +43,11 @@ export default function OurService() {
           <img
             src="/images/corner-yellow.png"
             alt="corner"
-            className="-top-20 -left-10 -z-10 absolute w-48"
+            className="-top-14 lg:-top-20 -left-5 lg:-left-10 -z-10 absolute w-24 lg:w-48"
           />
         </div>
-        <div className="gap-8 grid grid-cols-2 px-16 w-2/3">
-          <div className="flex flex-col gap-8 mt-16">
+        <div className="gap-8 grid grid-cols-1 md:grid-cols-2 lg:px-16 lg:w-2/3">
+          <div className="flex flex-col gap-8 lg:mt-16">
             <OurServiceCard item={services[0]} />
             <OurServiceCard item={services[1]} />
           </div>
@@ -60,12 +60,12 @@ export default function OurService() {
       <img
         src="/images/rectangle.png"
         alt="background"
-        className="top-10 right-0 -z-10 absolute w-2/3"
+        className="top-96 lg:top-10 right-0 -z-10 absolute w-2/3"
       />
       <img
         src="/images/dot.png"
         alt="dot"
-        className="bottom-16 left-32 -z-20 absolute w-96"
+        className="bottom-16 left-0 lg:left-32 -z-20 absolute w-96"
       />
       <img
         src="/images/ellipse-3.png"

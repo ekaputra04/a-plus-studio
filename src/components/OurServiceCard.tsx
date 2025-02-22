@@ -12,9 +12,9 @@ export default function OurServiceCard({ item }: OurServiceCardProps) {
       <div
         className={`${item.backroundColor} mx-auto p-4 rounded-xl w-fit h-fit`}
       >
-        <img src={item.images} alt="Logo" className="w-16" />
+        <img src={item.images} alt="Logo" className="w-10 lg:w-16" />
       </div>
-      <h3 className="font-semibold text-xl text-center text-wrap">
+      <h3 className="font-semibold text-lg lg:text-xl text-center text-wrap">
         {item.title}
       </h3>
       <p className="text-slate-600 text-sm text-center text-wrap">
