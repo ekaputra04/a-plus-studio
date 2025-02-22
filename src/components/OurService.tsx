@@ -36,7 +36,7 @@ export default function OurService() {
           <h2 className="font-semibold text-4xl text-wrap">
             How can we help your Business?
           </h2>
-          <p className="text-slate-500 text-sm text-wrap">
+          <p className="text-slate-500 text-wrap">
             We build readymade websites, mobile applications, and elaborate
             online business services.
           </p>

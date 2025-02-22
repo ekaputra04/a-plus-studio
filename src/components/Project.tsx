@@ -14,7 +14,7 @@ export default function Project() {
           <h2 className="font-semibold text-4xl">
             Great Digital Product Agency since 2016
           </h2>
-          <p className="text-slate-500 text-sm text-wrap">
+          <p className="text-slate-500 text-wrap">
             Our Business Plan is a written document describing a company's core
             business activites, Objectives, and how it plans to achieve its
             goals. Our goal is to provide our client high quality Product with
