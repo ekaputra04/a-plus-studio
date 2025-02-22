@@ -31,6 +31,11 @@ export default function Hero() {
             alt="Ellipse"
             className="top-0 -left-16 -z-10 absolute w-32 h-32"
           />
+          <img
+            src="/images/ellipse-2.png"
+            alt="Ellipse"
+            className="right-32 -bottom-16 -z-10 absolute w-32 h-32"
+          />
         </div>
       </div>
     </>
