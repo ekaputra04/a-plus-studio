@@ -1,7 +1,4 @@
-type NavbarItemType = {
-  title: string;
-  link: string;
-};
+import { NavbarItemType } from "@/types/types";
 
 const NavbarItems: NavbarItemType[] = [
   {

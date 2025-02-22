@@ -11,7 +11,7 @@ export default function Hero() {
             We build readymade websites, mobile applications, and elaborate
             online business services.
           </p>
-          <Button className="bg-blue-700 px-10 py-6 rounded-full text-lg">
+          <Button className="bg-blue-700 hover:bg-blue-800 px-10 py-6 rounded-full text-lg">
             Contact Now
           </Button>
           <img
